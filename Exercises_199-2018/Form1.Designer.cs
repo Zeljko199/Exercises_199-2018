@@ -28,33 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBoxExerciseResults = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listBoxExerciseResults
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(332, 78);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(238, 154);
-            this.listBox1.TabIndex = 0;
+            this.listBoxExerciseResults.FormattingEnabled = true;
+            this.listBoxExerciseResults.ItemHeight = 15;
+            this.listBoxExerciseResults.Location = new System.Drawing.Point(12, 57);
+            this.listBoxExerciseResults.Name = "listBoxExerciseResults";
+            this.listBoxExerciseResults.Size = new System.Drawing.Size(776, 364);
+            this.listBoxExerciseResults.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBoxExerciseResults);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBoxExerciseResults;
     }
 }
 
